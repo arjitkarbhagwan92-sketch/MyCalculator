@@ -25,3 +25,41 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
 }
+plugins {
+    id 'com.android.application' version '8.1.1' apply false
+}
+
+subprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}plugins {
+    id 'com.android.application' version '8.1.1' apply false
+}
+
+subprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}plugins {
+    id 'com.android.application' version '8.1.1' apply false
+}
+
+subprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+plugins {
+    id 'com.android.application' version '8.1.1' apply false
+}
+
+subprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
