@@ -1,25 +1,20 @@
 plugins {
-    id "com.android.application"
+    id 'com.android.application'
 }
 
 android {
-    namespace "com.calculator.app"
+    namespace 'com.calculator.app'
     compileSdk 34
-
     defaultConfig {
         applicationId "com.calculator.app"
-        minSdk 21
+        minSdk 24
         targetSdk 34
         versionCode 1
         versionName "1.0"
     }
-
-    buildTypes {
-        release {
-            minifyEnabled false
-        }
-    }
 }
 
 dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
 }
