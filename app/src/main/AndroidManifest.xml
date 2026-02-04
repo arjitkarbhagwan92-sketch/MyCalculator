@@ -3,8 +3,7 @@
     <application
         android:allowBackup="true"
         android:label="MyCalculator"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light">
+        android:theme="@style/Theme.MyCalculator">
         <activity
             android:name=".MainActivity"
             android:exported="true">
