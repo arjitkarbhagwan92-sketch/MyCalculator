@@ -12,10 +12,14 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.9.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    // Only the absolute essentials
+    implementation 'androidx.appcompat:appcompat:1.0.0'
 }
